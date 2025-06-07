@@ -1,12 +1,20 @@
 import React, { useState } from "react";
+import { IKImage } from "imagekitio-react";
+import Image from "./image";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <div className="w-full h-16 md:h-20 flex items-center justify-between">
       {/* LOGO */}
       <div className="flex items-center gap-4 text-2xl font-bold">
-        <img src="" className="w-8 h-8" alt="" />
+        <Image
+          src="https://ik.imagekit.io/ag0e1xo26/atn1.jpg"
+          alt="test"
+          w={32}
+          h={32}
+        />
         <span>Inkspire</span>
       </div>
       {/* MOBILE MENU */}

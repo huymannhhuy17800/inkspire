@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 body {
   /* background-color: red; */
@@ -8,4 +9,85 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+[data-theme="light"] {
+  --background-color: #ffffff; /* Light background */
+  --surface-color: #f9f9f9; /* Light surface color */
+  --primary-text-color: #121212; /* Dark text for readability */
+  --secondary-text-color: #44f79a; /* Lighter secondary text */
+  --link-hover-color: #185abc; /* Darker blue on hover */
+  --button-background-color: #04aa6d; /* Button background */
+  --button-text-color: #ffffff; /* Button text */
+  --button-secondary-background-color: #ec082a;
+  --button-secondary-text-color: #ffffff;
+  --border-color: #e0e0e0; /* Light borders */
+  --input-background-color: #ffffff; /* Input field background */
+  --input-text-color: #121212; /* Input text */
+  --shadow-color: #121212; /* Subtle shadows */
+  --card-background-color: #ffffff; /* Card background */
+  --highlight-color: #6200ea; /* Highlight color for important elements */
+  --error-color: #b00020; /* Error text or backgrounds */
+  --success-color: #388e3c; /* Success message color */
+  --warning-color: #ffa000; /* Warning color */
+}
+
+[data-theme="dark"] {
+  --background-color: #3c3c3c; /* Dark background */
+  --surface-color: #1f1f1f; /* Dark surface color */
+  --primary-text-color: #ebeaea; /* Light text for readability */
+  --secondary-text-color: #b0b0b0; /* Secondary text */
+  --link-color: #bb86fc; /* Purple link color */
+  --link-hover-color: #3700b3; /* Darker purple on hover */
+  --button-background-color: #04aa6d; /* Button background */
+  --button-text-color: #ffffff; /* Button text */
+  --border-color: #333333; /* Dark borders */
+  --input-background-color: #333333; /* Input field background */
+  --input-text-color: #e0e0e0; /* Input text */
+  --shadow-color: #adabab; /* Shadows */
+  --card-background-color: #1f1f1f; /* Card background */
+  --highlight-color: #03dac6; /* Highlight color for important elements */
+  --error-color: #cf6679; /* Error text or backgrounds */
+  --success-color: #4caf50; /* Success message color */
+  --warning-color: #ffb300; /* Warning color */
+}
+
+[data-theme="dark-gold"] {
+  --background-color: #3c3c3c; /* Dark background */
+  --surface-color: #1f1f1f; /* Darker surface color */
+  --primary-text-color: #f1e0a6; /* Light golden text for readability */
+  --secondary-text-color: #bfa95d; /* Lighter golden secondary text */
+  --link-color: #ffcc00; /* Gold link color */
+  --link-hover-color: #ffb900; /* Darker gold on hover */
+  --button-background-color: #d4af37; /* Dark gold button background */
+  --button-text-color: #121212; /* Dark text for button */
+  --border-color: #8c7b36; /* Goldish border color */
+  --input-background-color: #4f4f4f; /* Dark input field background */
+  --input-text-color: #f1e0a6; /* Light golden text for input */
+  --shadow-color: #f1e0a6; /* Deeper shadows for depth */
+  --card-background-color: #3c3c3c; /* Dark card background */
+  --highlight-color: #d4af37; /* Dark gold highlight color */
+  --error-color: #ff6f61; /* Error color (soft red) */
+  --success-color: #a0e8a0; /* Success color (soft green) */
+  --warning-color: #ffcc00; /* Bright gold for warning */
+}
+
+[data-theme="purple"] {
+  --background-color: #f5e1fd; /* Dark background */
+  --surface-color: #b399d4; /* Darker surface color */
+  --primary-text-color: #1a1a1a; /* Light golden text for readability */
+  --secondary-text-color: #43423f; /* Lighter golden secondary text */
+  --link-color: #ffcc00; /* Gold link color */
+  --link-hover-color: #ffb900; /* Darker gold on hover */
+  --button-background-color: #ffffff; /* Dark gold button background */
+  --button-text-color: #121212; /* Dark text for button */
+  --border-color: #8c7b36; /* Goldish border color */
+  --input-background-color: #4f4f4f; /* Dark input field background */
+  --input-text-color: #f1e0a6; /* Light golden text for input */
+  --shadow-color: rgba(0, 0, 0, 0.6); /* Deeper shadows for depth */
+  --card-background-color: #3c3c3c; /* Dark card background */
+  --highlight-color: #d4af37; /* Dark gold highlight color */
+  --error-color: #ff6f61; /* Error color (soft red) */
+  --success-color: #a0e8a0; /* Success color (soft green) */
+  --warning-color: #ffcc00; /* Bright gold for warning */
 }
