@@ -11,6 +11,10 @@ body {
   font-style: normal;
 }
 
+.animated-button {
+  animation-duration: 13000ms;
+}
+
 [data-theme="light"] {
   --background-color: #ffffff; /* Light background */
   --surface-color: #f9f9f9; /* Light surface color */
