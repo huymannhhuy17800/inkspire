@@ -1,14 +1,9 @@
-// import { useEffect, useState } from "react";
 import "./App.css";
-import Navbar from "./components/navbar";
 
 function App() {
   return (
     <>
-      <div className="">
-        {/* NAVBAR */}
-        <Navbar />
-      </div>
+      <div className=""></div>
     </>
   );
 }

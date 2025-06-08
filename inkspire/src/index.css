@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@tailwind utilities;
 
 body {
   /* background-color: red; */
@@ -16,7 +15,7 @@ body {
 }
 
 [data-theme="light"] {
-  --background-color: #ffffff; /* Light background */
+  --background-color: #d2d2d2; /* Light background */
   --surface-color: #f9f9f9; /* Light surface color */
   --primary-text-color: #121212; /* Dark text for readability */
   --secondary-text-color: #44f79a; /* Lighter secondary text */

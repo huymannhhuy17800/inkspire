@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import { title, description } from "../config/intro";
+import { title, description } from "../config/intro.ts";
 
 const HomePage = () => {
   return (
