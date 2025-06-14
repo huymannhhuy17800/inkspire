@@ -15,12 +15,12 @@ body {
 }
 
 [data-theme="light"] {
-  --background-color: #d2d2d2; /* Light background */
+  --background-color: #dedddd; /* Light background */
   --surface-color: #f9f9f9; /* Light surface color */
   --primary-text-color: #121212; /* Dark text for readability */
   --secondary-text-color: #44f79a; /* Lighter secondary text */
   --link-hover-color: #185abc; /* Darker blue on hover */
-  --button-background-color: #04aa6d; /* Button background */
+  --button-bg-color: #cfcece; /* Button background */
   --button-text-color: #ffffff; /* Button text */
   --button-secondary-background-color: #ec082a;
   --button-secondary-text-color: #ffffff;
@@ -36,13 +36,13 @@ body {
 }
 
 [data-theme="dark"] {
-  --background-color: #3c3c3c; /* Dark background */
-  --surface-color: #1f1f1f; /* Dark surface color */
+  --background-color: #454545; /* Dark background */
+  --surface-color: #191919; /* Dark surface color */
   --primary-text-color: #ebeaea; /* Light text for readability */
   --secondary-text-color: #b0b0b0; /* Secondary text */
   --link-color: #bb86fc; /* Purple link color */
   --link-hover-color: #3700b3; /* Darker purple on hover */
-  --button-background-color: #04aa6d; /* Button background */
+  --button-bg-color: #717171; /* Button background */
   --button-text-color: #ffffff; /* Button text */
   --border-color: #333333; /* Dark borders */
   --input-background-color: #333333; /* Input field background */
@@ -57,12 +57,12 @@ body {
 
 [data-theme="dark-gold"] {
   --background-color: #3c3c3c; /* Dark background */
-  --surface-color: #1f1f1f; /* Darker surface color */
+  --surface-color: #191919; /* Darker surface color */
   --primary-text-color: #f1e0a6; /* Light golden text for readability */
   --secondary-text-color: #bfa95d; /* Lighter golden secondary text */
   --link-color: #ffcc00; /* Gold link color */
   --link-hover-color: #ffb900; /* Darker gold on hover */
-  --button-background-color: #d4af37; /* Dark gold button background */
+  --button-bg-color: #717171; /* Dark gold button background */
   --button-text-color: #121212; /* Dark text for button */
   --border-color: #8c7b36; /* Goldish border color */
   --input-background-color: #4f4f4f; /* Dark input field background */
@@ -82,7 +82,7 @@ body {
   --secondary-text-color: #43423f; /* Lighter golden secondary text */
   --link-color: #ffcc00; /* Gold link color */
   --link-hover-color: #ffb900; /* Darker gold on hover */
-  --button-background-color: #ffffff; /* Dark gold button background */
+  --button-bg-color: #d5c1ef; /* Dark gold button background */
   --button-text-color: #121212; /* Dark text for button */
   --border-color: #8c7b36; /* Goldish border color */
   --input-background-color: #4f4f4f; /* Dark input field background */

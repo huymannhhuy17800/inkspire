@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
 import { title, description } from "../config/intro.ts";
+import Category from "../components/category.tsx";
+import FeaturedPosts from "../components/featured-posts.tsx";
 
 const HomePage = () => {
   return (
@@ -61,6 +63,10 @@ const HomePage = () => {
           </button>
         </Link>
       </div>
+      {/* Category */}
+      <Category />
+      {/* Featured Posts */}
+      <FeaturedPosts />
     </div>
   );
 };

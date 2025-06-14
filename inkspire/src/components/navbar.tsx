@@ -48,7 +48,7 @@ export const Navbar = () => {
           className="cursor-pointer text-2xl"
           onClick={() => setOpenMenu((prev) => !prev)}
         >
-          {openMenu ? "X" : "?"}
+          {openMenu ? "X" : "☰"}
         </div>
         <div
           className={`w-full h-screen flex flex-col items-center justify-center absolute top-16 bg-amber-500 transition-all ease-in-out ${
@@ -68,7 +68,9 @@ export const Navbar = () => {
       {/* DESKTOP MENU */}
 
       <div className="hidden items-center md:flex gap-8 xl:gap-12 font-medium relative text-[var(--primary-text-color)]">
-        <Link to="">Home</Link>
+        <Link to="" className="">
+          Home
+        </Link>
         <Link to="">Trending</Link>
         <Link to="">Most Popular</Link>
         <Link to="">About</Link>
@@ -76,7 +78,7 @@ export const Navbar = () => {
         <SignedOut>
           <Link to="/login">
             <button className="py-2 px-4 rounded-3xl bg-[var(--surface-color)] cursor-pointer ">
-              Login 👍
+              Login 🚪
             </button>
           </Link>
         </SignedOut>
