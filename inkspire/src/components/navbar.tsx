@@ -33,12 +33,7 @@ export const Navbar = () => {
         to="/"
         className="flex items-center gap-4 text-2xl font-bold text-[var(--primary-text-color)]"
       >
-        <Image
-          src="https://ik.imagekit.io/ag0e1xo26/atn1.jpg"
-          alt="test"
-          w={32}
-          h={32}
-        />
+        <Image src="atn1.jpg" alt="test" w={32} h={32} />
         <span>Inkspire</span>
       </Link>
       {/* MOBILE MENU */}

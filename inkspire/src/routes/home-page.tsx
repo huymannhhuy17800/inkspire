@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import { title, description } from "../config/intro.ts";
 import Category from "../components/category.tsx";
 import FeaturedPosts from "../components/featured-posts.tsx";
+import Posts from "../components/posts.tsx";
 
 const HomePage = () => {
   return (
@@ -67,6 +68,12 @@ const HomePage = () => {
       <Category />
       {/* Featured Posts */}
       <FeaturedPosts />
+      <div className="">
+        <h1 className="my-8 text-2xl text-[var(--primary-text-color)]">
+          Recent Posts
+        </h1>
+        <Posts />
+      </div>
     </div>
   );
 };

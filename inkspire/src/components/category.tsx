@@ -42,14 +42,16 @@ const Category = () => {
         >
           Marketing
         </Link>
-        <span className="text-xl font-medium">|</span>
+        <span className="text-xl font-medium text-[var(--primary-text-color)]">
+          |
+        </span>
         {/* search bar  */}
         <div className="bg-amber-50 p-2 rounded-full flex items-center gap-2">
           <div className="">🔍</div>
           <input
             type="text"
             placeholder="Search..."
-            className="bg-transparent"
+            className="bg-transparent outline-none border-none"
           />
         </div>
       </div>

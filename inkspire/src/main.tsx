@@ -8,6 +8,7 @@ import { ClerkProvider } from "@clerk/clerk-react";
 import LoginPage from "./routes/login.tsx";
 import RegisterPage from "./routes/register.tsx";
 import CreatePostPage from "./routes/create-post.tsx";
+import PostDetails from "./components/post-details.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: "/login", element: <LoginPage /> },
       { path: "/register", element: <RegisterPage /> },
       { path: "/create-post", element: <CreatePostPage /> },
+      { path: "/test", element: <PostDetails /> },
     ],
   },
 ]);
