@@ -3,6 +3,7 @@ import Image from "./image";
 import { Link } from "react-router";
 import PostMenuAction from "./post-menu-action";
 import Search from "./search";
+import Comments from "./comments";
 
 const PostDetails = () => {
   return (
@@ -107,7 +108,7 @@ const PostDetails = () => {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-8">
               <Image
-                src="cpp.jpg"
+                src="avatar.jpg"
                 className="w-12 h-12 rounded-full object-cover"
                 w={48}
                 h={48}
@@ -151,6 +152,7 @@ const PostDetails = () => {
           <Search />
         </div>
       </div>
+      <Comments />
     </div>
   );
 };

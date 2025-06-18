@@ -9,6 +9,7 @@ import LoginPage from "./routes/login.tsx";
 import RegisterPage from "./routes/register.tsx";
 import CreatePostPage from "./routes/create-post.tsx";
 import PostDetails from "./components/post-details.tsx";
+import PostList from "./routes/post-lists.tsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "/register", element: <RegisterPage /> },
       { path: "/create-post", element: <CreatePostPage /> },
       { path: "/test", element: <PostDetails /> },
+      { path: "/posts-list", element: <PostList /> },
     ],
   },
 ]);
